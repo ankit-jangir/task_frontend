@@ -1,0 +1,18 @@
+cat >> .gitignore <<'EOF'
+
+.next/
+out/
+build/
+dist/
+
+# Dependencies
+node_modules/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# TypeScript cache
+*.tsbuildinfo
+EOF
